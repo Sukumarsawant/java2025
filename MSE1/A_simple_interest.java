@@ -8,7 +8,7 @@ import java.util.*;
 //Simple interest is : 1500.0
 //Compound Interest is : 1576.25
 
-public class simple_interest {
+public class A_simple_interest {
 	public static double simpleInterest(double p , double r , double t ) {
 		return (p*r*t)/100.;
 	}
