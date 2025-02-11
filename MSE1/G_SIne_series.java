@@ -1,6 +1,6 @@
 package MSE1.java2025.MSE1;
 import java.util.*;
-public class F_Cosine_series {
+public class G_Sine_series {
 	 public static long fact(int i) {
 		
 		if(i==1) return 1;
@@ -15,14 +15,14 @@ public class F_Cosine_series {
 		System.out.println("Enter the numebr of terms u want ");
 		int n = sc.nextInt();
 		x   = x *(Math.PI/180.);
-		//cos
+		//Sine
 		 Double sum =0.0;
 		int ct  =0;
-		for(int i = 0 ;ct<n;i+=2) {
+		for(int i = 1;ct<n;i+=2) {
 			sum+=Math.pow(-1, ct)*Math.pow(x, i)/(fact(i)*1.);
 			ct++;
 		}
-		System.out.println("Cosine series value is = "+sum);
+		System.out.println("Sine series value is = "+sum);
 		
 		
 	}

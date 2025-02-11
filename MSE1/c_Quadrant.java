@@ -1,6 +1,6 @@
 package MSE1.java2025.MSE1;
 
-public class c_Quadrant {
+public class C_Quadrant {
 	public static void main(String s[]) {
 		int a = 0 , b=0 ;
 		
