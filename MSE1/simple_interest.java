@@ -4,6 +4,9 @@ package MSE1.java2025.MSE1;
 import java.util.*;
 
 
+//10000 5 3 test case : ans :
+//Simple interest is : 1500.0
+//Compound Interest is : 1576.25
 
 public class simple_interest {
 	public static double simpleInterest(double p , double r , double t ) {
